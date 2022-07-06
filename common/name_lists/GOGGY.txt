@@ -1,0 +1,150 @@
+GOGGY = {
+	category = "GOGGY"
+	randomized = no
+	alias = "Goggy"
+
+	ship_names = {
+		corvette = {
+			GOGGY_Corvette
+		}
+		destroyer = {
+			GOGGY_Destroyer
+		}
+		cruiser = {
+			GOGGY_Cruiser
+		}
+		battleship = {
+			GOGGY_Battleship
+		}
+		titan = {
+			GOGGY_Titan
+		}
+		colossus = {
+			GOGGY_Colossus
+		}
+		juggernaut = {
+			GOGGY_Juggernaut
+		}
+		constructor = {
+			GOGGY_Constructor
+		}
+		colonizer = {
+			GOGGY_Colonizer
+		}
+		sponsored_colonizer = {
+			GOGGY_Colonizer
+		}
+		science = {
+			GOGGY_Science
+		}
+		transport = {
+			GOGGY_Transport
+		}
+		military_station_small = {
+			GOGGY_Station
+		}
+		ion_cannon = {
+			GOGGY_Cannon
+		}
+	}
+
+	fleet_names = {
+		sequential_name = GOGGY_Fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = GOGGY_Machine_Defense
+		}
+		machine_assault_1 = {
+			sequential_name = GOGGY_Machine_Assault
+		}
+		machine_assault_2 = {
+			sequential_name = GOGGY_Machine_Assault
+		}
+		machine_assault_3 = {
+			sequential_name = GOGGY_Machine_Assault
+		}
+		defense_army = {
+			sequential_name = GOGGY_Defense_Army
+		}
+		assault_army = {
+			sequential_name = GOGGY_Assault_Army
+		}
+		slave_army = {
+			sequential_name = GOGGY_Slave_Army
+		}
+		clone_army = {
+			sequential_name = GOGGY_Clone_Army
+		}
+		undead_army = {
+			sequential_name = GOGGY_Undead_Army
+		}
+		undead_defense_army = {
+			sequential_name = GOGGY_Undead_Defense_Army
+		}
+		robotic_army = {
+			sequential_name = GOGGY_Robotic_Army
+		}
+		robotic_defense_army = {
+			sequential_name = GOGGY_Robotic_Defense_Army
+		}
+		psionic_army = {
+			sequential_name = GOGGY_Psionic_Army
+		}
+		xenomorph_army = {
+			sequential_name = GOGGY_Xenomorph_Army
+		}
+		gene_warrior_army = {
+			sequential_name = GOGGY_Gene_Warrior_Army
+		}
+		occupation_army = {
+			sequential_name = GOGGY_Occupation_Army
+		}
+		robotic_occupation_army = {
+			sequential_name = GOGGY_Robotic_Occupation_Army
+		}
+		primitive_army = {
+			sequential_name = GOGGY_Primitive_Army
+		}
+		industrial_army = {
+			sequential_name = GOGGY_Industrial_Army
+		}
+		postatomic_army = {
+			sequential_name = GOGGY_Postatomic_Army
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = { 
+				GOGGY_Planet
+			}
+		}
+	}
+
+	character_names = {
+		default = {
+			use_full_regnal_name = yes
+
+			first_names_male = {
+				GOGGY_Male
+			}
+			first_names_female = {
+				GOGGY_Female
+			}
+			second_names = {
+				GOGGY_Citizen
+			}
+			regnal_first_names_male = {
+				GOGGY_Regnal_Male
+			}
+			regnal_first_names_female = {
+				GOGGY_Regnal_Female
+			}
+			regnal_second_names = {
+				GOGGY_Regnal
+			}
+		}
+	}
+}

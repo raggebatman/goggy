@@ -1,0 +1,115 @@
+portraits = {
+	# goggy variants
+	goggy1 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy1.dds"
+	}
+	goggy2 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy2.dds"
+	}
+	goggy3 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy3.dds"
+	}
+	goggy4 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy4.dds"
+	}
+	goggy5 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy5.dds"
+	}
+	goggy6 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy6.dds"
+	}
+	goggy7 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy7.dds"
+	}
+	goggy8 = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = goggy_greeting
+		texturefile = "gfx/models/portraits/goggy/goggy8.dds"
+	}
+	# poog variants
+	poog_normal = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = poog_greeting
+		texturefile = "gfx/models/portraits/poog/poog_normal.dds"
+	}
+	poog_crown = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = poog_greeting
+		texturefile = "gfx/models/portraits/poog/poog_crown.dds"
+	}
+	poog_researcher = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = poog_greeting
+		texturefile = "gfx/models/portraits/poog/poog_researcher.dds"
+	}
+	poog_officer = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = poog_greeting
+		texturefile = "gfx/models/portraits/poog/poog_officer.dds"
+	}
+}
+
+portrait_groups = {
+	poog = {
+		default = poog_normal
+
+		leader = {
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = { 
+					poog_researcher
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						leader_class = admiral
+						leader_class = general
+					}
+				}
+				portraits = { 
+					poog_officer
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				trigger = {
+					always = yes
+				}
+				portraits = {
+					poog_crown
+				}
+			}
+		}
+	}
+}

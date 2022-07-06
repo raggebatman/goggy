@@ -1,0 +1,28 @@
+GOGGY = {
+	archetype = BIOLOGICAL
+
+	portraits = {
+		goggy1
+		goggy2
+		goggy3
+		goggy4
+		goggy5
+		goggy6
+		goggy7
+		goggy8
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = moving_pop_confirmation
+}
+
+POOG = {
+	archetype = BIOLOGICAL
+
+	portraits = {
+		poog
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = moving_pop_confirmation
+}

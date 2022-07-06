@@ -1,0 +1,150 @@
+POOG = {
+	category = "POOG"
+	randomized = no
+	alias = "Poog"
+
+	ship_names = {
+		corvette = {
+			POOG_Corvette
+		}
+		destroyer = {
+			POOG_Destroyer
+		}
+		cruiser = {
+			POOG_Cruiser
+		}
+		battleship = {
+			POOG_Battleship
+		}
+		titan = {
+			POOG_Titan
+		}
+		colossus = {
+			POOG_Colossus
+		}
+		juggernaut = {
+			POOG_Juggernaut
+		}
+		constructor = {
+			POOG_Constructor
+		}
+		colonizer = {
+			POOG_Colonizer
+		}
+		sponsored_colonizer = {
+			POOG_Colonizer
+		}
+		science = {
+			POOG_Science
+		}
+		transport = {
+			POOG_Transport
+		}
+		military_station_small = {
+			POOG_Station
+		}
+		ion_cannon = {
+			POOG_Cannon
+		}
+	}
+
+	fleet_names = {
+		sequential_name = POOG_Fleet
+	}
+
+	army_names = {
+		machine_defense = {
+			sequential_name = POOG_Machine_Defense
+		}
+		machine_assault_1 = {
+			sequential_name = POOG_Machine_Assault
+		}
+		machine_assault_2 = {
+			sequential_name = POOG_Machine_Assault
+		}
+		machine_assault_3 = {
+			sequential_name = POOG_Machine_Assault
+		}
+		defense_army = {
+			sequential_name = POOG_Defense_Army
+		}
+		assault_army = {
+			sequential_name = POOG_Assault_Army
+		}
+		slave_army = {
+			sequential_name = POOG_Slave_Army
+		}
+		clone_army = {
+			sequential_name = POOG_Clone_Army
+		}
+		undead_army = {
+			sequential_name = POOG_Undead_Army
+		}
+		undead_defense_army = {
+			sequential_name = POOG_Undead_Defense_Army
+		}
+		robotic_army = {
+			sequential_name = POOG_Robotic_Army
+		}
+		robotic_defense_army = {
+			sequential_name = POOG_Robotic_Defense_Army
+		}
+		psionic_army = {
+			sequential_name = POOG_Psionic_Army
+		}
+		xenomorph_army = {
+			sequential_name = POOG_Xenomorph_Army
+		}
+		gene_warrior_army = {
+			sequential_name = POOG_Gene_Warrior_Army
+		}
+		occupation_army = {
+			sequential_name = POOG_Occupation_Army
+		}
+		robotic_occupation_army = {
+			sequential_name = POOG_Robotic_Occupation_Army
+		}
+		primitive_army = {
+			sequential_name = POOG_Primitive_Army
+		}
+		industrial_army = {
+			sequential_name = POOG_Industrial_Army
+		}
+		postatomic_army = {
+			sequential_name = POOG_Postatomic_Army
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = { 
+				POOG_Planet
+			}
+		}
+	}
+	
+	character_names = {
+		default = {
+			use_full_regnal_name = yes
+			
+			first_names_male = {
+				POOG_Male
+			}
+			first_names_female = {
+				POOG_Female
+			}
+			second_names = {
+				POOG_Citizen
+			}
+			regnal_first_names_male = {
+				POOG_Regnal_Male
+			}
+			regnal_first_names_female = {
+				POOG_Regnal_Female
+			}
+			regnal_second_names = {
+				POOG_Regnal
+			}
+		}
+	}
+}

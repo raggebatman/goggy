@@ -1,0 +1,51 @@
+# goggy sounds
+
+soundeffect = {
+	name = goggy_greeting
+	sounds = {
+		sound = goggy_greeting_01
+		sound = goggy_greeting_02
+		sound = goggy_greeting_03
+	}
+}
+
+sound = {
+	name = goggy_greeting_01
+	file = "goggy_greeting_01.wav"
+}
+
+sound = {
+	name = goggy_greeting_02
+	file = "goggy_greeting_02.wav"
+}
+
+sound = {
+	name = goggy_greeting_03
+	file = "goggy_greeting_03.wav"
+}
+
+# poog sounds
+
+soundeffect = {
+	name = poog_greeting
+	sounds = {
+		sound = poog_greeting_01
+		sound = poog_greeting_02
+		sound = poog_greeting_03
+	}
+}
+
+sound = {
+	name = poog_greeting_01
+	file = "poog_greeting_01.wav"
+}
+
+sound = {
+	name = poog_greeting_02
+	file = "poog_greeting_02.wav"
+}
+
+sound = {
+	name = poog_greeting_03
+	file = "poog_greeting_03.wav"
+}
