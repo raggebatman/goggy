@@ -73,6 +73,27 @@ portraits = {
 		greeting_sound = poog_greeting
 		texturefile = "gfx/models/portraits/poog/poog_officer.dds"
 	}
+	# saul goodman
+	saul_goodman = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = saul_goodman_greeting
+		texturefile = "gfx/models/portraits/miscellaneous/saul_goodman.dds"
+	}
+	# walter white
+	walter_white = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = walter_white_greeting
+		texturefile = "gfx/models/portraits/miscellaneous/walter_white.dds"
+	}
+	# rat
+	rat = {
+		clothes_selector = no_texture
+		hair_selector = no_texture
+		greeting_sound = rat_greeting
+		texturefile = "gfx/models/portraits/miscellaneous/rat.dds"
+	}
 }
 
 portrait_groups = {
@@ -97,6 +118,14 @@ portrait_groups = {
 				}
 				portraits = { 
 					poog_officer
+				}
+			}
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = { 
+					poog_crown
 				}
 			}
 		}
