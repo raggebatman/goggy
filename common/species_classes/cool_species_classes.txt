@@ -26,3 +26,16 @@ POOG = {
 	graphical_culture = humanoid_01
 	move_pop_sound_effect = moving_pop_confirmation
 }
+
+MISCELLANEOUS = {
+	archetype = BIOLOGICAL
+
+	portraits = {
+		saul_goodman
+		walter_white
+		rat
+	}
+
+	graphical_culture = humanoid_01
+	move_pop_sound_effect = moving_pop_confirmation
+}
