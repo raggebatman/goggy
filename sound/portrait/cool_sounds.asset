@@ -49,3 +49,43 @@ sound = {
 	name = poog_greeting_03
 	file = "poog_greeting_03.wav"
 }
+
+# saul goodman sounds
+
+sound = {
+	name = saul_goodman_greeting
+	file = "saul_goodman_greeting.wav"
+}
+
+# walter white sounds
+
+sound = {
+	name = walter_white_greeting
+	file = "walter_white_greeting.wav"
+}
+
+# rat sounds
+
+soundeffect = {
+	name = rat_greeting
+	sounds = {
+		sound = rat_greeting_01
+		sound = rat_greeting_02
+		sound = rat_greeting_03
+	}
+}
+
+sound = {
+	name = rat_greeting_01
+	file = "rat_greeting_01.wav"
+}
+
+sound = {
+	name = rat_greeting_02
+	file = "rat_greeting_02.wav"
+}
+
+sound = {
+	name = rat_greeting_03
+	file = "rat_greeting_03.wav"
+}
